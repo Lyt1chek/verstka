@@ -1,0 +1,70 @@
+ 
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: auto; /* Stay at the top */
+    left: 0;
+    background-color: #086da786; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px;
+    margin-top:0px;
+}
+
+    /* The navigation menu links */
+    .sidebar a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 23px;
+        color: #040308;
+        display: block; 
+    }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+/* Style page content */
+.main {
+    width: 80%;
+    margin-left: auto;
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+        .sidebar a {
+            font-size: 18px;
+        }
+}
+/* Add a black background color to the top navigation */
+
+
+
+footer {
+    
+    justify-content: center;
+    padding: 10px;
+    background-color: #090424;
+    color: #f1f1f1;
+    margin-top: auto;
+    text-align: center;
+
+}
+body footer {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.button-mybutton{
+	background-color: rgb(136, 136, 136);
+    margin-right: 20px;
+}
